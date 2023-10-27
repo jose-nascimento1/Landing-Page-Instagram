@@ -1,0 +1,131 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+body {
+    margin-top: 20px;
+    background-color: #f1f1f1;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.phone img {
+    height: 70vh;
+}
+.profile-photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.instagram-continue {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-height: 160px;
+}
+.group-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+    border: 1px solid darkgray;
+    min-height: 304px;
+}
+.group-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    padding: 20px 0;
+    border: 1px solid darkgray;
+    height: 80px;
+}
+.instagram-logo {
+    height: 48px;
+}
+.instagram-login {
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+.instagram-logout {
+    color: #0095f6;
+    margin-top: 1rem;
+}
+.not-account {
+    color: #000000;
+}
+.link-blue {
+    color: #0095f6;;
+}
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 0;
+}
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
+}
+.app-download {
+    height: 48px;
+    width: 160px;
+    background-size: contain;
+}
+.app-download:nth-child(1) {
+    background-image: url(../img/apple-button.png);
+}
+.app-download:nth-child(2) {
+    background-image: url(../img/googleplay-button.png);
+}
+footer {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 70px;
+}
+footer a {
+    justify-content: space-around;
+    text-decoration: none;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
